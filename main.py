@@ -18,5 +18,7 @@ transform = new_matrix()
 # print_matrix( make_rotY(math.pi/4) )
 # print
 # print_matrix( make_rotZ(math.pi/4) )
-
+#add_box(edges,-80,-120,0,75,75,75)
+#draw_lines(edges,screen,color)
 parse_file( 'script', edges, transform, screen, color )
+#parse_file('test',edges,transform,screen,color)
